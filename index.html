@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Fila de Atendimento - UniATENEU</title>
+    <link rel="stylesheet" href="style.css">
+</head> 
+<body> 
+    <div class="app-container">
+
+        <div class="page-header">
+            <img src="https://www.bancariosce.org.br/wp-content/uploads/2020/10/Logo20UNIATENEU-2.png" alt="Logo UniATENEU">
+
+            <div class="header-info">
+                <p>Análise e Desenvolvimento de Sistemas</p>
+                <p>Programação Web</p>
+                <p>2025.1</p>
+            </div>
+        </div>
+
+        <h1>Sistema de Gerenciamento de Fila</h1>
+
+        <div class="panel">
+            <h2>Senha Atual em Atendimento:</h2>
+            <p id="senhaAtual" class="senha-atual-display">--</p>
+        </div>
+
+        <div class="controls">
+            <button id="btnGerarSenha">Gerar Nova Senha</button>
+            <button id="btnChamarSenha">Chamar Próxima Senha</button>
+        </div>
+
+        <div class="panel">
+            <h2>Fila de Espera:</h2>
+            <div id="filaEspera" class="fila-espera-display">
+                Fila vazia 
+            </div>
+        </div>
+
+    </div> 
+
+    <script src="script.js"> 
+    </script> 
+</body> 
+</html> 
